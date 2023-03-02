@@ -1,0 +1,16 @@
+span {
+  display: inline-block;
+  background-color: #ddd;
+}
+
+span {
+  padding: 30px;
+  padding: 20px 50px;
+  padding: 193px 100px 262px 179px;
+  border-top: 10px solid blue;
+  border-right: 60px solid red;
+  border-bottom: 29px solid slateblue;
+  border-left: 42px solid yellowgreen;
+  border-radius: 200px;
+}
+

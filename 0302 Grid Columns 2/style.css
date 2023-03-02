@@ -1,0 +1,59 @@
+.grid {
+  display: grid;
+  gap: 20px; /* um espaço entre os elementos do grid */
+  grid-template-columns: 1fr 1fr; /* criar colunas no grid */
+}
+
+.titulo {
+  grid-column: 2;
+  text-align: right;
+}
+
+.preco {  /* place-self: alinhar um item so */
+  place-self: start end;
+}
+
+.comprar {
+  align-self: start;
+  text-align: center;
+}
+
+/* estilos gerais */
+
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+h1, p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1; /* espaço entre as linhas */
+}
+
+p, span {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.preco {
+  background-color: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.comprar {
+  background-color: #a8f;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #103;
+  border-radius: 4px;
+  font-size: 20px;
+}

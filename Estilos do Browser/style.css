@@ -1,0 +1,11 @@
+body {
+  color: tomato;
+}
+
+a {
+  color: inherit;  /* pra herdar a cor da font */
+}
+
+button {
+  color: inherit;
+}

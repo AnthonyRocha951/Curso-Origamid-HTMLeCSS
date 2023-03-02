@@ -1,0 +1,16 @@
+/*
+  Todo elemento "Inline" recebe a class (.inline)
+  ja todo elemento "block" recebe a class (.block)
+*/
+
+h1 {
+  width: 300px;
+}
+
+.block {
+  border: 1px solid blue;
+}
+
+.inline {
+  border: 1px solid red;
+}
