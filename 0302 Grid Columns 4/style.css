@@ -1,16 +1,20 @@
 .grid {
   display: grid;
   gap: 20px; /* um espaço entre os elementos do grid */
-  grid-template-columns: 2fr 1fr; /* criar colunas no grid */
-  grid-template-rows: 300px auto;
-  grid-auto-rows: auto; /* definir um tamanho pras proximas linhas */
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.preco {
-  grid-area: 1 / 1; /* definir onde o elemento vai ficar, em qual linha e qual coluna */
+.titulo {
+  grid-column: 1 / -1;
 }
 
- 
+.info {
+  display: grid;
+  place-self: center;
+  place-items: start;
+  gap: 20px;
+}
+
 /* estilos gerais */
 
 body {
